@@ -232,19 +232,4 @@ function clicked(element){
   playMusic();
   playingSong();
 }
-// Import the mysql module
-const mysql = require('mysql');
 
-// Create a connection to the MySQL database
-const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '#Aloku0412',
-  database: ''
-});
-
-// Connect to the MySQL database
-connection.connect((err) => {
-  if (err) throw err;
-  console.log('Connected to the MySQL database!');
-});
